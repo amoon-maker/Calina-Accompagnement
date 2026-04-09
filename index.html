@@ -1,0 +1,872 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Calina Accompagnement</title>
+    <meta
+      name="description"
+      content="Calina Accompagnement — a calm, spacious, and emotionally supportive digital experience."
+    />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <link rel="icon" type="image/x-icon" href="images/calina-logo.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#mainNav"
+    data-bs-offset="110"
+    tabindex="0"
+  >
+    <div class="site-wrap" id="siteWrap">
+      <nav
+        class="navbar navbar-expand-lg sticky-top site-navbar"
+        id="siteNavbar"
+      >
+        <div class="container-xxl px-4 px-xl-5">
+          <a
+            class="navbar-brand d-flex align-items-center"
+            href="#home"
+            aria-label="Go to home section"
+          >
+            <img
+              src="images/calina-logo.webp"
+              alt="Calina Accompagnement logo"
+              class="brand-logo"
+              id="siteLogo"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler custom-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="toggler-line"></span>
+            <span class="toggler-line"></span>
+            <span class="toggler-line"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul
+              class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-lg-3"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" href="#home" data-i18n="navHome"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about" data-i18n="navAbout">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sessions" data-i18n="navSessions"
+                  >Sessions</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" data-i18n="navContact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+
+            <div
+              class="nav-tools d-flex align-items-center gap-2 ms-lg-3 pt-3 pt-lg-0"
+            >
+              <button
+                type="button"
+                id="langToggle"
+                class="btn btn-sm btn-outline-dark utility-btn lang-toggle"
+                aria-label="Switch language"
+              >
+                FR
+              </button>
+              <button
+                type="button"
+                id="themeToggle"
+                class="btn btn-sm btn-outline-dark utility-btn mode-toggle"
+                aria-label="Activate dark mode"
+                title="Activate dark mode"
+              >
+                <span class="mode-icon" aria-hidden="true">☾</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <header id="home" class="hero-section">
+        <div class="hero-bg-image" aria-hidden="true"></div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div
+          class="container-xxl px-4 px-xl-5 position-relative hero-content-wrap"
+        >
+          <div class="row align-items-center hero-row gy-5 gx-xl-5">
+            <div class="col-lg-7 reveal">
+              <p class="eyebrow mb-3" data-i18n="heroEyebrow">
+                Emotional accompaniment
+              </p>
+              <h1 class="hero-title mb-3" data-i18n="heroTitle">
+                Calina Accompagnement
+              </h1>
+              <p class="hero-copy mb-4" data-i18n="heroCopy">
+                A gentle, grounding space for emotional clarity, soft support,
+                and a quieter way to reconnect with what is alive in you.
+              </p>
+              <div class="d-flex flex-column flex-sm-row gap-3 hero-buttons">
+                <a
+                  href="https://calendly.com/espace-calina/accompagnement"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary btn-lg"
+                  data-i18n="heroBook"
+                  >Book Now</a
+                >
+                <a
+                  href="#contact"
+                  class="btn btn-outline-dark btn-lg"
+                  data-i18n="heroMessage"
+                  >Message Me</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-5"></div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="about" class="about-group section-texture py-6">
+          <div class="container-xxl px-4 px-xl-5">
+            <div class="about-stack mx-auto">
+              <section class="about-panel reveal">
+                <div class="about-panel-inner">
+                  <h2
+                    class="section-title text-center mb-4"
+                    data-i18n="aboutOneTitle"
+                  >
+                    What this accompaniment makes possible
+                  </h2>
+                  <ul class="about-list mb-0">
+                    <li data-i18n="aboutOneItem1">
+                      Express what feels heavy or confusing.
+                    </li>
+                    <li data-i18n="aboutOneItem2">
+                      Listen deeply to what is happening within you.
+                    </li>
+                    <li data-i18n="aboutOneItem3">
+                      Understand your experience more clearly.
+                    </li>
+                    <li data-i18n="aboutOneItem4">
+                      Regain greater clarity and inner safety.
+                    </li>
+                    <li data-i18n="aboutOneItem5">
+                      Facilitate self-acceptance and access the inner qualities
+                      already present in you.
+                    </li>
+                    <li data-i18n="aboutOneItem6">
+                      At your own pace.
+                    </li>
+                  </ul>
+                </div>
+              </section>
+
+              <section class="about-panel reveal reveal-delay-1">
+                <div class="about-panel-inner">
+                  <h2
+                    class="section-title text-center mb-4"
+                    data-i18n="aboutTwoTitle"
+                  >
+                    This accompaniment may be for you if...
+                  </h2>
+                  <ul class="about-list mb-0">
+                    <li data-i18n="aboutTwoItem1">
+                      You feel your emotions deeply, but you do not know what
+                      to do with them. You often feel like you are carrying
+                      this alone.
+                    </li>
+                    <li data-i18n="aboutTwoItem2">
+                      There may be things you cannot truly express, even with
+                      people close to you.
+                    </li>
+                    <li data-i18n="aboutTwoItem3">
+                      You are going through a period of confusion, emotional
+                      fatigue, or transition.
+                    </li>
+                    <li data-i18n="aboutTwoItem4">
+                      You feel the need for a safe space to set down what you
+                      are living through and regain more calm, clarity, and
+                      inner safety.
+                    </li>
+                    <li data-i18n="aboutTwoItem5">
+                      Your faith is important to you, and you want your
+                      emotional experience to coexist in harmony with it.
+                    </li>
+                  </ul>
+                </div>
+              </section>
+
+              <section class="about-panel reveal reveal-delay-2">
+                <div class="about-panel-inner">
+                  <h2
+                    class="section-title text-center mb-4"
+                    data-i18n="aboutThreeTitle"
+                  >
+                    The approach
+                  </h2>
+                  <ul class="about-list mb-0">
+                    <li data-i18n="aboutThreeItem1">
+                      A trauma-informed approach.
+                    </li>
+                    <li data-i18n="aboutThreeItem2">
+                      Rooted in somatic presence.
+                    </li>
+                    <li data-i18n="aboutThreeItem3">
+                      Based on Nonviolent Communication as taught by Marshall
+                      Rosenberg.
+                    </li>
+                    <li data-i18n="aboutThreeItem4">
+                      Inspired by the principles of Internal Family Systems,
+                      polyvagal theory, and attachment theory.
+                    </li>
+                  </ul>
+                </div>
+              </section>
+
+              <section class="about-panel reveal">
+                <div class="about-panel-inner text-center text-block-panel">
+                  <h2 class="section-title mb-4" data-i18n="aboutFourTitle">
+                    What this space is not
+                  </h2>
+                  <p data-i18n="aboutFourP1">
+                    This is not a place to analyze your story or to follow the
+                    steps of a method.
+                  </p>
+                  <p data-i18n="aboutFourP2">
+                    Past experiences can be mentioned, but they are not the
+                    center.
+                  </p>
+                  <p class="mb-0" data-i18n="aboutFourP3">
+                    It is a space to meet what is happening within you, with
+                    presence and listening.
+                  </p>
+                </div>
+              </section>
+
+              <section class="about-panel reveal reveal-delay-1">
+                <div class="about-panel-inner text-center text-block-panel">
+                  <h2 class="section-title mb-4" data-i18n="aboutFiveTitle">
+                    What this space is
+                  </h2>
+                  <p data-i18n="aboutFiveP1">
+                    This space offers moments to pause.
+                  </p>
+                  <p data-i18n="aboutFiveP2">
+                    Moments to bring presence where there is often tension,
+                    pressure, or urgency.
+                  </p>
+                  <p data-i18n="aboutFiveP3">
+                    A place to let what is here exist: emotions, questions, and
+                    needs.
+                  </p>
+                  <p data-i18n="aboutFiveP4">
+                    Without forcing anything.
+                  </p>
+                  <p data-i18n="aboutFiveP5">
+                    With listening.
+                  </p>
+                  <p class="mb-0" data-i18n="aboutFiveP6">
+                    Moving gently, at the pace of what is alive.
+                  </p>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
+
+        <section id="sessions" class="sessions-section py-6">
+          <div class="container-xxl px-4 px-xl-5">
+            <div class="text-center section-heading-wrap mx-auto mb-5 reveal">
+              <p class="eyebrow mb-2" data-i18n="sessionsEyebrow">Sessions</p>
+              <h2 class="section-title mb-3" data-i18n="sessionsTitle">
+                Session Details and Booking
+              </h2>
+              <p class="section-intro mb-0" data-i18n="sessionsIntro">
+                Review the session format, duration, rate, payment details,
+                availability, and reserve your space directly.
+              </p>
+            </div>
+
+            <div class="row g-4 g-xl-5">
+              <div class="col-md-6 col-xl-4 d-flex reveal">
+                <article
+                  class="card border-0 shadow-sm h-100 w-100 service-card"
+                >
+                  <div class="card-body d-flex flex-column p-4 p-xl-5">
+                    <span
+                      class="badge rounded-pill text-bg-light align-self-start mb-3"
+                      data-i18n="sessionBadgeOne"
+                      >Framework</span
+                    >
+                    <h3
+                      class="h4 card-title mb-3"
+                      data-i18n="sessionCardOneTitle"
+                    >
+                      Individual accompaniment
+                    </h3>
+                    <p class="card-text mb-4" data-i18n="sessionCardOneText">
+                      Each session takes place in a clear, one-to-one format.
+                    </p>
+                    <ul class="list-unstyled mb-0 service-list mt-auto">
+                      <li data-i18n="sessionOneItem1">
+                        Format: Individual accompaniment
+                      </li>
+                      <li data-i18n="sessionOneItem2">Duration: 90 minutes</li>
+                      <li data-i18n="sessionOneItem3">
+                        Modality: Online on Zoom
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+              </div>
+
+              <div class="col-md-6 col-xl-4 d-flex reveal reveal-delay-1">
+                <article
+                  class="card border-0 shadow-sm h-100 w-100 service-card"
+                >
+                  <div class="card-body d-flex flex-column p-4 p-xl-5">
+                    <span
+                      class="badge rounded-pill text-bg-light align-self-start mb-3"
+                      data-i18n="sessionBadgeTwo"
+                      >Rate &amp; Payment</span
+                    >
+                    <h3
+                      class="h4 card-title mb-3"
+                      data-i18n="sessionCardTwoTitle"
+                    >
+                      Clear payment details
+                    </h3>
+                    <p class="card-text mb-4" data-i18n="sessionCardTwoText">
+                      Simple and transparent details before booking.
+                    </p>
+                    <ul class="list-unstyled mb-0 service-list mt-auto">
+                      <li data-i18n="sessionTwoItem1">
+                        Rate: $130
+                      </li>
+                      <li data-i18n="sessionTwoItem2">
+                        Payment: Interac e-transfer to calina.arenas@gmail.com
+                      </li>
+                      <li data-i18n="sessionTwoItem3">
+                        Security answer: individuel
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+              </div>
+
+              <div class="col-md-12 col-xl-4 d-flex reveal reveal-delay-2">
+                <article
+                  class="card border-0 shadow-sm h-100 w-100 service-card service-card-highlight"
+                >
+                  <div class="card-body d-flex flex-column p-4 p-xl-5">
+                    <span
+                      class="badge rounded-pill text-bg-light align-self-start mb-3"
+                      data-i18n="sessionBadgeThree"
+                      >Schedule &amp; Booking</span
+                    >
+                    <h3
+                      class="h4 card-title mb-3"
+                      data-i18n="sessionCardThreeTitle"
+                    >
+                      Reserve your space
+                    </h3>
+                    <p class="card-text mb-4" data-i18n="sessionCardThreeText">
+                      Rhythm and frequency are adjusted together based on what
+                      feels right for you.
+                    </p>
+                    <ul class="list-unstyled mb-4 service-list mt-auto">
+                      <li data-i18n="sessionThreeItem1">
+                        Wednesday and Thursday: 10:00 to 16:00
+                      </li>
+                      <li data-i18n="sessionThreeItem2">
+                        Friday: 10:00 to 14:00
+                      </li>
+                      <li data-i18n="sessionThreeItem3">
+                        Direct booking on Calendly
+                      </li>
+                    </ul>
+                    <div class="d-grid gap-2 mt-auto">
+                      <a
+                        href="https://calendly.com/espace-calina/accompagnement"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-primary btn-lg"
+                        data-i18n="sessionBook"
+                        >Reserve My Space</a
+                      >
+                      <button
+                        type="button"
+                        class="btn btn-outline-dark btn-lg"
+                        data-bs-toggle="modal"
+                        data-bs-target="#termsModal"
+                        data-i18n="sessionTerms"
+                      >
+                        View Terms & Conditions
+                      </button>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="quotes-section py-6 section-soft">
+           <div class="container-xxl px-4 px-xl-5">
+             <div class="text-center section-heading-wrap mx-auto mb-5 reveal">
+               <h2 class="section-title mb-0" data-i18n="quotesTitle">
+                 Client Reflections
+               </h2>
+             </div>
+             <div class="quotes-stack mx-auto">
+               <article class="quote-card quote-card-soft p-4 p-xl-5 reveal">
+                 <p class="quote-text mb-3" data-i18n="quoteOne">
+                  “During a difficult period, Calina’s attentive and caring
+                  presence was a blessing. She created a climate of trust in
+                  which I felt seen, heard, and recognized with empathy, and it
+                  was truly healing. This accompaniment helped me better
+                  understand my needs, recognize their legitimacy, and have even
+                  more clarity and lightness.”
+                </p>
+                <span class="quote-attribution" data-i18n="quoteOneAuthor">
+                — Sylvie G.
+                </span>
+              </article>
+
+               <article class="quote-card quote-card-soft p-4 p-xl-5 reveal reveal-delay-1">
+                <p class="quote-text mb-3" data-i18n="quoteTwo">
+                  “This session helped me bring deep wounds into awareness,
+                  which is essential for the healing process. I felt afterward
+                  more energized, more centered, and full of hope.”
+                 </p>
+                  <span class="quote-attribution" data-i18n="quoteTwoAuthor">
+                  — A. Z.
+                 </span>
+                </article>
+              </div>
+           </div>
+          </section>
+
+        <section id="faq" class="faq-section py-6">
+          <div class="container-xxl px-4 px-xl-5">
+            <div class="text-center section-heading-wrap mx-auto mb-5 reveal">
+              <h2 class="section-title mb-3" data-i18n="faqTitle">FAQ</h2>
+              <p class="section-intro mb-0" data-i18n="faqIntro">
+                Clear answers to common questions so you can move forward with
+                confidence.
+              </p>
+            </div>
+
+            <div class="accordion faq-wrap mx-auto reveal" id="faqAccordion">
+              <div class="accordion-item mb-3 border-0 shadow-sm">
+                <h3 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqOne"
+                    aria-expanded="true"
+                    aria-controls="faqOne"
+                    data-i18n="faqQ1"
+                  >
+                    Is this therapy?
+                  </button>
+                </h3>
+                <div
+                  id="faqOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body" data-i18n="faqA1">
+                    No. This space is not psychotherapy or medical treatment. It
+                    is emotional accompaniment rooted in presence, listening,
+                    and care.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-3 border-0 shadow-sm">
+                <h3 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqTwo"
+                    aria-expanded="false"
+                    aria-controls="faqTwo"
+                    data-i18n="faqQ2"
+                  >
+                    Who is this space intended for?
+                  </button>
+                </h3>
+                <div
+                  id="faqTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body" data-i18n="faqA2">
+                    It is intended for Muslim women seeking a softer, clearer,
+                    and more emotionally safe environment to meet what they are
+                    living.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item border-0 shadow-sm">
+                <h3 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqThree"
+                    aria-expanded="false"
+                    aria-controls="faqThree"
+                    data-i18n="faqQ3"
+                  >
+                    How does booking work?
+                  </button>
+                </h3>
+                <div
+                  id="faqThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body" data-i18n="faqA3">
+                    The visitor can read the main details in the Sessions
+                    section and then use the Book Now button to open the
+                    official Calendly link directly.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="contact-section py-6">
+          <div class="container-xxl px-4 px-xl-5">
+            <div class="text-center section-heading-wrap mx-auto mb-5 reveal">
+              <p class="eyebrow mb-2" data-i18n="contactEyebrow">Contact</p>
+              <h2 class="section-title mb-3" data-i18n="contactTitle">
+                Send us a message
+              </h2>
+              <p class="section-intro mb-0" data-i18n="contactIntro">
+                If you would like to ask a question before booking, send a
+                message here and you will receive a personal response.
+              </p>
+            </div>
+
+            <div class="row align-items-stretch g-4 g-xl-5">
+              <div class="col-lg-6 reveal">
+                <div class="form-card p-4 p-xl-5 h-100">
+                  <form id="contactForm" novalidate>
+                    <div class="mb-3">
+                      <label for="name" class="form-label" data-i18n="formName"
+                        >Name</label
+                      >
+                      <input
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        id="name"
+                        data-i18n-placeholder="formNamePlaceholder"
+                        placeholder="Your name"
+                        autocomplete="name"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label
+                        for="email"
+                        class="form-label"
+                        data-i18n="formEmail"
+                        >Email</label
+                      >
+                      <input
+                        type="email"
+                        name="email"
+                        class="form-control"
+                        id="email"
+                        data-i18n-placeholder="formEmailPlaceholder"
+                        placeholder="your@email.com"
+                        autocomplete="email"
+                      />
+                    </div>
+                    <div class="mb-4">
+                      <label
+                        for="message"
+                        class="form-label"
+                        data-i18n="formMessage"
+                        >Message</label
+                      >
+                      <div class="message-field-wrapper">
+                        <textarea
+                          name="message"
+                          class="form-control"
+                          id="message"
+                          rows="6"
+                          data-i18n-placeholder="formMessagePlaceholder"
+                          placeholder="Write your message here..."
+                          autocomplete="off"
+                        ></textarea>
+                        <div id="wordCount" class="word-counter small text-muted" aria-live="polite">0 / 500 characters</div>
+                      </div>
+                    </div>
+                    <button
+                      type="submit"
+                      class="btn btn-primary btn-lg"
+                      data-i18n="formSend"
+                    >
+                      Send Message
+                    </button>
+                    <p id="formFeedback" class="small mt-3 mb-0"></p>
+                  </form>
+                </div>
+              </div>
+
+              <div class="col-lg-6 reveal reveal-delay-1">
+                <div
+                  class="form-card h-100 p-4 p-xl-5 d-flex flex-column contact-details"
+                >
+                  <div class="contact-image-wrap mb-4">
+                    <img
+                      src="images/desk-image-session.webp"
+                      alt="Calm office space"
+                      class="img-fluid contact-side-image"
+                    />
+                  </div>
+
+                  <div class="contact-info-block">
+                    <div class="mb-4">
+                      <h3 class="h5 mb-2" data-i18n="contactLocationTitle">
+                        Location
+                      </h3>
+                      <p class="mb-0" data-i18n="contactLocation">
+                        Montréal-Ouest, Quebec
+                      </p>
+                    </div>
+                    <div class="mb-4">
+                      <h3 class="h5 mb-2" data-i18n="contactPhoneTitle">
+                        Phone
+                      </h3>
+                      <p class="mb-0">
+                        <a href="tel:+14389382510">(438) 938-2510</a>
+                      </p>
+                    </div>
+                    <div>
+                      <h3 class="h5 mb-2" data-i18n="contactEmailTitle">
+                        Email
+                      </h3>
+                      <p class="mb-0">
+                        <a href="mailto:calina.arenas@gmail.com"
+                          >calina.arenas@gmail.com</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="main-footer pt-5 pb-4">
+        <div class="container-xxl px-4 px-xl-5">
+          <div class="row g-4 g-xl-5 align-items-start">
+            <div class="col-md-4 col-xl-3 reveal">
+              <ul class="list-unstyled footer-links mb-0">
+                <li>
+                  <a
+                    href="https://calendly.com/espace-calina/accompagnement"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-i18n="footerBook"
+                    class="footer-book-link"
+                    >Book Now</a
+                  >
+                </li>
+                <li><a href="#about" data-i18n="footerAbout">About</a></li>
+                <li>
+                  <a href="#sessions" data-i18n="footerSessions">Sessions</a>
+                </li>
+                <li><a href="#faq" data-i18n="footerFaq">FAQ</a></li>
+                <li>
+                  <a href="#contact" data-i18n="footerContact">Contact</a>
+                </li>
+                <li>
+                  <button
+                    type="button"
+                    class="footer-button p-0"
+                    data-bs-toggle="modal"
+                    data-bs-target="#termsModal"
+                    data-i18n="footerTerms"
+                  >
+                    Terms & Conditions
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-4 col-xl-4 reveal reveal-delay-1">
+              <h3 class="footer-title" data-i18n="footerContactTitle">
+                Contact
+              </h3>
+              <p class="mb-2" data-i18n="footerLocation">
+                Montréal-Ouest, Quebec
+              </p>
+              <p class="mb-2"><a href="tel:+14389382510">(438) 938-2510</a></p>
+              <p class="mb-0">
+                <a href="mailto:calina.arenas@gmail.com"
+                  >calina.arenas@gmail.com</a
+                >
+              </p>
+            </div>
+
+            <div class="col-md-4 col-xl-5 reveal reveal-delay-2">
+              <h3 class="footer-title" data-i18n="footerNewsTitle">
+                Follow our latest news
+              </h3>
+              <a
+                class="facebook-link"
+                href="https://www.facebook.com/profile.php?id=61586745436585"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Calina on Facebook"
+              >
+                <span class="facebook-icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.5 21V12.75H16.5L17 9.25H13.5V7.1C13.5 6.1 13.8 5.4 15.25 5.4H17.1V2.25C16.2 2.15 15.3 2.1 14.4 2.1C11.7 2.1 9.9 3.75 9.9 6.8V9.25H7V12.75H9.9V21H13.5Z"
+                    />
+                  </svg>
+                </span>
+                <span>Calina Accompagnement</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div class="footer-strap py-3">
+        <div class="container-xxl px-4 px-xl-5 text-center">
+          <p class="mb-0">
+            © <span id="currentYear">2026</span> Calina Accompagnement |
+            <span data-i18n="footerBuiltBy">Website developed by Amna</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="termsModal"
+      tabindex="-1"
+      aria-labelledby="termsModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content border-0 shadow-lg rounded-4">
+          <div class="modal-header px-4 px-md-5 py-4">
+            <h2
+              class="modal-title h3 mb-0"
+              id="termsModalLabel"
+              data-i18n="termsTitle"
+            >
+              Terms & Conditions
+            </h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body px-4 px-md-5 pb-5">
+            <div class="modal-scroll-area pe-2">
+              <p data-i18n="termsP1">
+                By accessing this website and booking a session, you acknowledge
+                that the services offered here are part of an emotional support
+                and presence-based accompaniment space, and do not constitute
+                psychotherapy, medical treatment, or psychological advice.
+              </p>
+              <p data-i18n="termsP2">
+                I am not a psychologist, physician, or mental health
+                professional recognized by a professional order in Quebec. My
+                accompaniment therefore does not replace medical, psychiatric,
+                psychological, or therapeutic care. It should not be interpreted
+                as a diagnosis, a clinical intervention, or a reserved act under
+                Law 21.
+              </p>
+              <p data-i18n="termsP3">
+                This space is intended to offer attentive, respectful, and
+                compassionate presence within a framework of human and emotional
+                support. If you are experiencing significant distress, a
+                psychological emergency, or require clinical care, it is your
+                responsibility to consult a qualified healthcare professional or
+                the appropriate emergency services.
+              </p>
+              <p class="mb-0" data-i18n="termsP4">
+                By using this website or booking a session, you accept these
+                limits and acknowledge that you understand the nature of the
+                service being offered.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div
+        id="formToast"
+        class="toast site-toast toast-success border-0 shadow-lg"
+        role="status"
+        aria-live="polite"
+        aria-atomic="true"
+        data-bs-delay="4500"
+      >
+        <div class="toast-header border-0">
+          <strong class="me-auto">Calina</strong>
+          <small id="formToastTime">just now</small>
+          <button
+            type="button"
+            id="formToastCloseBtn"
+            class="btn-close ms-2 mb-1"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="toast-body" id="formToastText">
+          Your form was submitted successfully.
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
